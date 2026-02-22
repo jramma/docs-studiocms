@@ -24,7 +24,7 @@ import QuickUpdate from '~/components/QuickUpdate.astro'
 
 ## Reparación de errores y mejoras
 
-- Remplaza `chalk` con `styleText` de `node:util` para StudioCMS CLI.
+- Reemplaza `chalk` con `styleText` de `node:util` para StudioCMS CLI.
 - Actualiza las dependencias de StudioCMS.
 - Corrige el problema con `pg` y `mysql2` que requerían ser instalados cuando deberían ser opcionales.
 - Corrige la expresión regular del cliente en el frontend para permitir barras dentro de un slug, pero no fuera de este. Esto desbloquea la creación de páginas bajo sub-rutas usando solo el slug (por ejemplo, `docs/getting-started`) y solo afecta la validación del lado del cliente.
